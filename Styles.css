@@ -206,7 +206,12 @@ audio { display: none; }
 }
 #VistaPlaylist { display: none; }
 #LoadingBox { text-align: center; display: none; padding: 20px; }
-
+#No {
+    scale: 80%;
+    display: none;
+    position: fixed;
+    margin: -6vh 30vh;
+}
 
 
 

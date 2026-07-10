@@ -24,7 +24,7 @@ function inicializarSistema() {
     GEN.forEach(genero => {
         if (genero.canciones) {
             genero.canciones.forEach(cancion => {
-                cancion.id = idContador++;
+      cancion.id = idContador++;
             });
         }
     });
@@ -57,9 +57,12 @@ function mostrarGeneros() {
     VistaBusqueda.style.display = "none";
     I.value = "";
     
-    // AGREGA ESTA LÍNEA para que los géneros vuelvan arriba
+    // Ocultar la imagen cuando volvemos al menú principal
+    No.style.display = "none"; 
+    
     document.getElementById("MainContent").scrollTop = 0; 
 }
+
 
 function abrirCarpeta(indexGenero) {
     let genero = GEN[indexGenero];
@@ -131,12 +134,19 @@ Reproductor.addEventListener('ended', () => {
 // El buscador extrae los datos directamente de tus arrays locales sin lag
 I.oninput = (e) => {
     var In = e.target.value.toLowerCase().trim().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-    if (In === "") { mostrarGeneros(); return; }
+    
+    if (In === "") { 
+        document.getElementById("No").style.display = "none"; // Ocultar si está vacío
+        mostrarGeneros(); 
+        return; 
+    }
 
     VistaGeneros.style.display = "none";
     VistaPlaylist.style.display = "none";
     VistaBusqueda.style.display = "block";
     ListaBusqueda.innerHTML = "";
+
+    let coincidencias = false; // Variable para saber si encontramos algún resultado
 
     GEN.forEach((genero, i) => {
         let nomGen = genero.name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
@@ -146,6 +156,7 @@ I.oninput = (e) => {
             li.onclick = () => abrirCarpeta(i);
             li.innerHTML = `<div class="genre-emoji">${genero.logo}</div><div class="genre-name">${genero.name}</div>`;
             ListaBusqueda.appendChild(li);
+            coincidencias = true; // Encontró un género coincidente
         }
 
         if (genero.canciones) {
@@ -162,11 +173,16 @@ I.oninput = (e) => {
                         reproducirCancion(cancion, songIndex);
                     };
                     ListaBusqueda.appendChild(li);
+                    coincidencias = true; // Encontró una canción coincidente
                 }
             });
         }
     });
+
+    // Al terminar de buscar en toda la lista, decide si muestra o no la imagen
+    No.style.display = coincidencias ? "none" : "block";
 };   
+  
 
 function togglePlay() {
     if (Reproductor.paused) {
@@ -200,3 +216,6 @@ function seekAudio() {
 
 // Iniciar cargando la base de datos local
 inicializarSistema();
+
+
+

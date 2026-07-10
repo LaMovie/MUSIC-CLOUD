@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+body { 
+   margin: 0;
+   display: flex;
+   flex-direction: column;         
+   background: #000; 
+   font-family: 'Lacquer', cursive;   
+   color: #fff;
+   height: 100vh;
+   overflow: hidden;
+}
+header {
+   text-align: center;
+   padding: 10px 0;
+}
+p.title {
+   color: transparent;
+   background: linear-gradient(to right, red, blue);
+   background-clip: text;
+   -webkit-background-clip: text;
+   filter: saturate(110%);
+   font-size: 24px;
+   margin: 10px 0;
+}
+
+.search-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   width: 90%;
+   max-width: 450px;
+   margin: 0 auto;
+}
+#I { 
+   flex: 1;
+   color: gold; 
+   height: 40px;  
+   outline: none;
+   padding: 0 15px;   
+   background: #111; 
+   font-weight: bold; 
+   border-radius: 20px; 
+   border: 2px solid gray; 
+   box-shadow: 0px 0px 15px orange;    
+}
+.activo::placeholder { color: gray; }
+
+#MainContent {
+   flex: 1;
+   overflow-y: auto;
+   padding: 15px;
+   padding-bottom: 110px; 
+}
+
+#Lista, #ListaBusqueda {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    max-width: 480px;
+}
+
+.genre-card {
+    background: #121214;
+    border: 1px solid #222;
+    border-radius: 18px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.2s ease;
+    text-align: center;
+}
+.genre-card:hover {
+    transform: scale(1.04);
+    background: #1a1a1f;
+}
+.genre-emoji {
+    font-size: 35px;
+    margin-bottom: 8px;
+}
+.genre-name {
+    font-family: system-ui, -apple-system, sans-serif;
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.song-item {
+    font-family: system-ui, -apple-system, sans-serif;
+    font-size: 16px;
+    padding: 14px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #1c1c1e;
+    text-align: left;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+.song-item:hover { background: #121214; }
+
+.song-item.active-song {
+    background: #1a081c; 
+    border-left: 4px solid #cc4dd6; 
+}
+.song-title {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+.song-item.active-song .song-title {
+    color: #cc4dd6; 
+    font-weight: bold;
+}
+.genre-badge { font-size: 11px; color: gray; }
+
+#PlayerBar {
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   background: #0d0d0f;
+   border-top: 1px solid #222;
+   padding: 15px 0 10px 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   z-index: 100;
+   box-shadow: 0px -5px 20px rgba(0,0,0,0.8);
+}
+#NowPlayingInfo {
+   font-family: system-ui, -apple-system, sans-serif;
+   font-size: 14px;
+   color: #cc4dd6; 
+   font-weight: bold;
+   margin-bottom: 10px;
+   width: 90%;
+   text-align: center;
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}
+
+.custom-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    max-width: 450px;
+    gap: 12px;
+}
+#BtnPlay {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+    outline: none;
+}
+#ProgressBar {
+    flex: 1;
+    height: 4px;
+    -webkit-appearance: none;
+    background: #333;
+    border-radius: 5px;
+    outline: none;
+}
+#ProgressBar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #cc4dd6; 
+    cursor: pointer;
+}
+.time-display {
+    font-family: monospace;
+    font-size: 12px;
+    color: #888;
+    min-width: 35px;
+    text-align: center;
+}
+
+audio { display: none; } 
+
+.btn-back {
+   background: #222;
+   color: white;
+   border: 1px solid #444;
+   padding: 8px 15px;
+   border-radius: 15px;
+   cursor: pointer;
+   font-weight: bold;
+   margin-bottom: 15px;
+   font-family: system-ui, sans-serif;
+}
+#VistaPlaylist { display: none; }
+#LoadingBox { text-align: center; display: none; padding: 20px; }

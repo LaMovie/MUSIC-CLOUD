@@ -56,6 +56,9 @@ function mostrarGeneros() {
     VistaPlaylist.style.display = "none";
     VistaBusqueda.style.display = "none";
     I.value = "";
+    
+    // AGREGA ESTA LÍNEA para que los géneros vuelvan arriba
+    document.getElementById("MainContent").scrollTop = 0; 
 }
 
 function abrirCarpeta(indexGenero) {
@@ -63,6 +66,10 @@ function abrirCarpeta(indexGenero) {
     VistaGeneros.style.display = "none";
     VistaBusqueda.style.display = "none";
     VistaPlaylist.style.display = "block";
+    
+    // AGREGA ESTA LÍNEA para que la nueva lista empiece desde el título
+    document.getElementById("MainContent").scrollTop = 0; 
+
     TituloCarpeta.innerText = `${genero.logo} ${genero.name}`;
     
     playlistActual = genero.canciones || [];
@@ -77,6 +84,7 @@ function abrirCarpeta(indexGenero) {
         ListaCancionesContenedor.appendChild(div);
     });
 }
+
 
 function marcarCancionActiva(idCancion) {
     document.querySelectorAll('.song-item').forEach(el => {

@@ -87,7 +87,7 @@ p.title {
 .genre-name {
     font-family: system-ui, -apple-system, sans-serif;
     font-size: 13px;
-    color: #ffffff;
+    color: #e3e9e9;
     font-weight: bold;
     letter-spacing: 0.5px;
     text-transform: uppercase;
@@ -112,7 +112,8 @@ p.title {
     border-left: 4px solid #cc4dd6; 
 }
 .song-title {
-    color: #fff;
+    color: #e3e9e9;
+    font-weight: 500;
     transition: color 0.3s ease;
 }
 .song-item.active-song .song-title {
@@ -192,8 +193,9 @@ audio { display: none; }
 .btn-back {
    position: fixed;
    background: #222;
-   color: white;
-   border: 1px solid #444;
+   color: blue;
+   box-shadow: 0 0 10px purple;
+   border: 1px solid blue;
    padding: 8px 15px;
    border-radius: 15px;
    cursor: pointer;
@@ -204,6 +206,7 @@ audio { display: none; }
 }
 #VistaPlaylist { display: none; }
 #LoadingBox { text-align: center; display: none; padding: 20px; }
+
 
 
 

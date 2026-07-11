@@ -72,7 +72,7 @@ p.title {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
+    cursor: none;
     transition: transform 0.2s ease, background 0.2s ease;
     text-align: center;
 }
@@ -161,7 +161,7 @@ p.title {
     border: none;
     color: white;
     font-size: 28px;
-    cursor: pointer;
+    cursor: none;
     outline: none;
 }
 #ProgressBar {
@@ -178,7 +178,7 @@ p.title {
     height: 12px;
     border-radius: 50%;
     background: #cc4dd6; 
-    cursor: pointer;
+    cursor: none;
 }
 .time-display {
     font-family: monospace;

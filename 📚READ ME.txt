@@ -1,0 +1,76 @@
+En tu código, cambias la parte de:
+        [www.dropbox.com]
+...por
+       dl.dropboxusercontent.com
+
+
+ALISTADOS CON '/scl/fi'.
+  • 🇦🇷 CUMBIA
+  • 🇵🇷 PR CLASSIC
+  • 🎹 ALL IN BASS 
+  • 🇯🇲 BASS HALL 
+  • 🍹 COCTELITO
+  • 💓 DEL ALMA 2
+  • 🪩 DISCO RETRO
+  • 🎹 BASSCITY
+
+ALISTADOS CON '/scl/fo'.
+  -- ALL THEM OTHER --
+  
+
+
+   SPA (Single Page Application)
+  
+  El algoritmo es una serie de pasos ordenados, lógicos y finitos que toman una entrada (input), la procesan y devuelven un resultado (output).
+  
+El código tiene tres algoritmos clarísimos:
+
+  #1. Algoritmo de búsqueda y filtrado (I.oninput)
+Este es el más complejo y completo de la app. Sigue un proceso algorítmico perfecto:  
+
+ENTRADA: El texto que escribe el usuario.  
+
+PROCESAMIENTO: Limpia el texto (quita espacios, lo pasa a minúsculas y elimina acentos con .normalize()), recorre en bucle todo el catálogo de géneros y canciones, y usa una variable "bandera" (coincidencias) para evaluar el estado final.  
+
+SALIDA: Muestra solo lo que coincide en pantalla y decide si oculta o muestra la imagen de error.  
+
+  #2. El algoritmo de indexación automatizada (inicializarSistema)
+En lugar de escribir IDs a mano para cada canción de la base de datos, se crea un proceso que lo hace solo:  
+
+ENTRADA: Los arrays de música crudos.  
+
+PROCESAMIENTO: Inicia un contador en 1 e itera de forma secuencial canción por canción inyectándole el ID numérico.  
+
+SALIDA: La base de datos perfectamente indexada y lista para que funcione el reproductor. 
+ 
+  #3. El algoritmo de conversión de tiempo (formatTime)
+Es un algoritmo matemático clásico:  
+
+ENTRADA: Los segundos puros que le da el reproductor (por ejemplo: 135 segundos).  
+
+PROCESAMIENTO: Divide por 60 para sacar los minutos, usa el operador residuo (%) para los segundos restantes y aplica lógica condicional para agregar el 0 a la izquierda si los segundos son menores a 10.  
+
+SALIDA: Un texto formateado y amigable para el usuario (siguiendo el ejemplo, "2:15").  
+
+
+
+   SPA (Single Page Application) 
+ Aplicación de una Sola Página. En lugar de crear varios archivos HTML independientes (generos.html, playlist.html, etc.) y hacer que el navegador recargue la página completa, metiste todas tus pantallas dentro del mismo index.html y dejas que JavaScript decida cuál se ve y cuál se esconde usando CSS.  
+
+La Ilusión Óptica: display: none; vs display: block;
+display: none; (Tras bambalinas): Cuando se aplica esto a una vista en CSS, el navegador no solo la vuelve invisible, sino que la retira por completo del escenario. No ocupa espacio, no interrumpe a los demás elementos y es como si no existiera físicamente en la pantalla (aunque su código sigue ahí cargado en la memoria).  
+display: block; (Bajo el reflector): Le dice al navegador: "Oye, pon este elemento de vuelta en el escenario y muéstralo como un bloque". Al instante, la vista aparece ante los ojos del usuario.  
+En el index.html, hay tres "capas" o pantallas principales metidas dentro de #MainContent:  
+#VistaGeneros  
+#VistaPlaylist  
+#VistaBusqueda  
+Al cargar la app por primera vez, el archivo Styles.css se encarga de que la playlist y la búsqueda inicien tras bambalinas (display: none;). Solo los géneros están bajo el reflector.  
+
+El Director de Orquesta: ¿Cómo funciona el botón "Volver"?
+Cuando el usuario interactúa, JavaScript actúa como el director de escena cambiando los carteles de display sobre la marcha.  
+El botón de volver tiene un evento llamado onclick="mostrarGeneros()". Al hacerle clic, se ejecuta la función mostrarGeneros(). 
+
+Este enfoque es excelente para aplicaciones móviles empaquetadas o web porque la navegación es instantánea. No hay tiempos de carga entre pantallas porque todo el HTML ya está descargado desde el primer segundo en el celular del usuario.
+
+
+

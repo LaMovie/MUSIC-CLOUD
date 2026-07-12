@@ -108,10 +108,13 @@ function reproducirCancion(cancion, index) {
     try {
        var SONG = cancion.url.replace('www.dropbox.com', 'dl.dropboxusercontent.com');
   Reproductor.src = SONG;
+  
+  PlayerBar.style.background = 'url(4.gif)';  
         Reproductor.play().catch(error => {
             console.log("Autoplay bloqueado por el dispositivo:", error);
     InfoCancion.innerText = "Toca '▶️' para reproducir";
     BtnPlay.innerText = "▶️";
+ PlayerBar.style.background = '';
         });
         
         InfoCancion.innerText = cancion.name;
@@ -128,6 +131,7 @@ Reproductor.addEventListener('ended', () => {
         reproducirCancion(playlistActual[siguienteIndex], siguienteIndex);
     } else {
  InfoCancion.innerText = "The End";
+ PlayerBar.style.background = '';
     }
 });
 
@@ -191,10 +195,17 @@ function togglePlay() {
         Reproductor.pause();
     }
 }
-
-Reproductor.onplay = () => BtnPlay.innerText = "⏸️";
-Reproductor.onpause = () => BtnPlay.innerText = "▶️";
-
+  
+Reproductor.onplay = () => {
+   BtnPlay.innerText = "⏸️";
+PlayerBar.style.background = 'url(2.gif)';
+NowPlayingInfo.style.color = '#cc4dd6';
+}
+Reproductor.onpause = () => {
+     BtnPlay.innerText = "▶️";
+PlayerBar.style.background = '';
+NowPlayingInfo.style.color = 'gray';
+}
 function formatTime(seconds) {
     if (isNaN(seconds)) return "0:00";
     let min = Math.floor(seconds / 60);

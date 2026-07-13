@@ -1,3 +1,6 @@
+GEN = GEN.concat(GEN2);
+
+
 let playlistActual = [];
 let indiceActual = 0;
 
@@ -21,6 +24,7 @@ const TimeTotal = document.getElementById("TimeTotal");
 // Generar IDs internos automáticamente para que funcione el color Fucsia sin que tú escribas IDs manuales
 function inicializarSistema() {
     let idContador = 1;
+ 
     GEN.forEach(genero => {
         if (genero.canciones) {
             genero.canciones.forEach(cancion => {

@@ -262,7 +262,10 @@ var GEN2 = [
   { name: "Tropkillaz J Balvin Anitta Bola Rebola ft MC Zaac", url: "https://www.dropbox.com/scl/fo/he6nhdpahyxo6c8mp0lmw/AM8om9E1cI52IGox8yoHMpU/yt1s.com%20-%20Tropkillaz%20J%20Balvin%20Anitta%20%20Bola%20Rebola%20ft%20MC%20Zaac_v720P.mp3?rlkey=41wwevzc63rjcd1qtafiqdrid&dl=0" }
     ]
   }, 
-  { logo: "🇵🇷", name: "PR DELUXE", canciones: [] }, 
+  { logo: "🇵🇷", name: "PR DELUXE", canciones: [
+  { name: "📻 NRJ REGGAETON 📻", url: "https://streaming.nrjaudio.fm/ouam47w2dqao?origine=playernrj&aw_0_req.userConsentV2=&aw_0_1st.station=NRJ-Reggaeton" }, 
+    ] 
+  }, 
   { logo: "🇵🇷", name: "REGAETON", canciones: [] }, 
   { logo: "🇻🇪", name: "SALSA MIX", canciones: [
   { name: "Adolescent_s Orquesta - Los Mejores Éxitos (Salsa Romántica Mix)", url: "https://www.dropbox.com/scl/fo/v66niysojcp9wqak1e3xx/AEeEfF62PsDbQolWFzU2SoU/Adolescent_s%20Orquesta%20-%20Los%20Mejores%20%C3%89xitos%20%28Salsa%20Rom%C3%A1ntica%20Mix%29%28MP3_160K%29.mp3?rlkey=rszxgknz5vrmhxgr5d8f0p8ej&dl=0" },

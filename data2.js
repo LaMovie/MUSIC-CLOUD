@@ -64,8 +64,11 @@ var GEN2 = [
   { name: "Zomboy_-_Saints___Sinners_", url: "https://www.dropbox.com/scl/fo/vvl519bha4zesvkrb4194/AKE3KLAtO1ucWj_JNDK4L3Y/Zomboy_-_Saints___Sinners_%28Eliminate_Remix%29.mp3?rlkey=c2tl76rm5ujrez8in29vdnohl&dl=0" }
   ]
  }, 
-        { logo: "👅", name: "GOUSE HOUSE", canciones: [] }, 
-  { logo: "🥷🏽", name: "TRAP", canciones: [] }, 
+        { logo: "👅", name: "GOUSE HOUSE", canciones: [
+  
+    ]
+  }, 
+      { logo: "🥷🏽", name: "TRAP", canciones: [] }, 
   { logo: "😈", name: "MALIANTEO", canciones: [
   { name: "Anuel AA - Narcos", url: "https://www.dropbox.com/scl/fo/18rl3xltb4a7l5oc9js8a/AOHbXAs0czOH4-Z5Es9hwOg/Anuel%20AA%20-%20Narcos%20%28Video%20Oficial%29%28360P%29_1-mc.mp3?rlkey=jw84azasuza70z8zbuwpuqzct&dl=0" },
   { name: "Bajen Pa_ Ca - Bryant Myers X Noriel X Anuel AA _ ", url: "https://www.dropbox.com/scl/fo/18rl3xltb4a7l5oc9js8a/AI0Yzl8nOGJkOrZxDpwQlXQ/Bajen%20Pa_%20Ca%20-%20Bryant%20Myers%20X%20Noriel%20X%20Anuel%20AA%20_%20Video%20Oficial%28MP3_160K%29_1.mp3?rlkey=jw84azasuza70z8zbuwpuqzct&dl=0" },
@@ -126,8 +129,27 @@ var GEN2 = [
   { logo: "🫆", name: "TRAVEL", canciones: [] }, 
   { logo: "🔋", name: "ZERO", canciones: [] }, 
   { logo: "🎧", name: "MIX", canciones: [
-       {name: "", url: ""}
-     ] 
+  { name: "MONSTER MIX - DJ BL3ND -HD-", url: "https://www.dropbox.com/scl/fo/oe6eowxjcowhlmaxm6l69/AOZ7YXdOML9d4MopgMRWkaA/%28MONSTER%20MIX%29%20-%20DJ%20BL3ND%20-HD-%28MP3_128K%29.mp3?rlkey=6h975s4o4i3hcort35qob0xwt&dl=0" },
+  { name: "9 Hits By Bass City DJ", url: "https://www.dropbox.com/scl/fo/oe6eowxjcowhlmaxm6l69/APB5xg7jDriX3dJ5XHE8orY/9%20Hits%20By%20Bass%20City%20DJ.mp3?rlkey=6h975s4o4i3hcort35qob0xwt&dl=0" },
+  { name: "Bass House Mix ", url: "https://www.dropbox.com/scl/fo/oe6eowxjcowhlmaxm6l69/AGz5DkmSzl44EA3zzfSD7C8/Bass%20House%20Mix%20%28by%20Bass%20City%29%28MP3_128K%29_1.mp3?rlkey=6h975s4o4i3hcort35qob0xwt&dl=0" },
+  { name: "BASS NATION 🔥", url: "https://www.dropbox.com/scl/fo/oe6eowxjcowhlmaxm6l69/AHMGFlkPCRVW33qYz-Itj1U/BASS%20NATION%20%F0%9F%94%A5.mp3?rlkey=6h975s4o4i3hcort35qob0xwt&dl=0" },
+  { name: "Best Boot Bass ", url: "https://www.dropbox.com/scl/fo/oe6eowxjcowhlmaxm6l69/AIEcuw5rdTsdyfGFi4yWDyw/Best%20Boot%20Bass%20%28Mix%29.mp3?rlkey=6h975s4o4i3hcort35qob0xwt&dl=0" },
+  { name: "BEST FUTURE BASS ", url: "https://www.dropbox.com/scl/fo/oe6eowxjcowhlmaxm6l69/AJi7WfDyqUDpuiXLcy9ei5A/BEST%20FUTURE%20BASS%20%28BASS%20CITY%20MIX%29%28MP3_160K%29_1.mp3?rlkey=6h975s4o4i3hcort35qob0xwt&dl=0" },
+  { name: "Daddy Yankee - 2K20 Live Parte 1", url: "https://www.dropbox.com/scl/fo/oe6eowxjcowhlmaxm6l69/AKxW8jSVYv8v89sBhBf80YY/Daddy%20Yankee%20-%202K20%20Live%20Parte%201%28MP3_160K%29.mp3?rlkey=6h975s4o4i3hcort35qob0xwt&dl=0" },
+  { name: "HARD BASS 🔥", url: "https://www.dropbox.com/scl/fo/oe6eowxjcowhlmaxm6l69/AA3lQ0iaMSWbbHRYNK81sCU/HARD%20BASS%20%F0%9F%94%A5.mp3?rlkey=6h975s4o4i3hcort35qob0xwt&dl=0" },
+  { name: "Mix Cosculluela y Kendo Kaponi - Los Mejores Del Mundo 2021", url: "https://www.dropbox.com/scl/fo/oe6eowxjcowhlmaxm6l69/AGoAbJVWsZuNvapvcRpn3Hc/Mix%20Cosculluela%20y%20Kendo%20Kaponi%20-%20Los%20Mejores%20Del%20Mundo%20%283vsey%20Edit%292021%28MP3_160K%29.mp3?rlkey=6h975s4o4i3hcort35qob0xwt&dl=0" },
+  { name: "Mix Hector El Father", url: "https://www.dropbox.com/scl/fo/oe6eowxjcowhlmaxm6l69/AGHeCXSPE-HnjriC9iVmq6s/Mix%20Hector%20El%20Father.mp3?rlkey=6h975s4o4i3hcort35qob0xwt&dl=0" },
+  { name: "Moomba Nation Bass ", url: "https://www.dropbox.com/scl/fo/oe6eowxjcowhlmaxm6l69/AKJIO8rqfaRFOiAFegQQG-8/Moomba%20Nation%20%28Bass%20City%20Producer%20Mix%29%28MP3_160K%29_1-mc%20%281%29.mp3?rlkey=6h975s4o4i3hcort35qob0xwt&dl=0" },
+  { name: "MOOMBA NATION 🔥", url: "https://www.dropbox.com/scl/fo/oe6eowxjcowhlmaxm6l69/ANSuyPIiuj9cm_kn5P0rync/MOOMBA%20NATION%20%F0%9F%94%A5.mp3?rlkey=6h975s4o4i3hcort35qob0xwt&dl=0" },
+  { name: "Reggaeton Throwbacks  _ DJ Calle", url: "https://www.dropbox.com/scl/fo/oe6eowxjcowhlmaxm6l69/AJTYPyopo6C2pK1bEiCyDKw/Reggaeton%20Throwbacks%20%28Daddy%20Yankee_%20Don%20Omar_%20Tego%20Calderon_%20Zion_%20Nicky%20Jam%29%20_%20DJ%20Calle%28MP3_160K%29.mp3?rlkey=6h975s4o4i3hcort35qob0xwt&dl=0" },
+  { name: "RETRO TV 🔥", url: "https://www.dropbox.com/scl/fo/oe6eowxjcowhlmaxm6l69/AFS2fi9iCZSsjU24ZzukR8o/RETRO%20TV%20%F0%9F%94%A5.mp3?rlkey=6h975s4o4i3hcort35qob0xwt&dl=0" },
+  { name: "SALSATON 🔥", url: "https://www.dropbox.com/scl/fo/oe6eowxjcowhlmaxm6l69/AJRrVVMqjMZ6lTIFqIu_iXI/SALSATON%20%F0%9F%94%A5.mp3?rlkey=6h975s4o4i3hcort35qob0xwt&dl=0" },
+  { name: "Skrillex _ Dj Snake _ Marshmello - 400K ULTRA EUROPE  Mix by SWOG", url: "https://www.dropbox.com/scl/fo/oe6eowxjcowhlmaxm6l69/AKO2_ovEwUQmUq-7ei1G3y0/Skrillex%20_%20Dj%20Snake%20_%20Marshmello%20-%20400K%20ULTRA%20EUROPE%20%28Music%20Video%29%20Mix%20by%20SWOG%28MP3_160K%29_1.mp3?rlkey=6h975s4o4i3hcort35qob0xwt&dl=0" },
+  { name: "Skrillex _ Diplo _ Marshmello - 300K Mix  SWOG _ Arenal Sound 2018", url: "https://www.dropbox.com/scl/fo/oe6eowxjcowhlmaxm6l69/AEiJDdMYO5XeUZLAhihPJyY/Skrillex%20_%20Diplo%20_%20Marshmello%20-%20300K%20Mix%20%28Music%20Video%29%20SWOG%20_%20Arenal%20Sound%202018%28MP3_160K%29_1.mp3?rlkey=6h975s4o4i3hcort35qob0xwt&dl=0" },
+  { name: "TikTok With DjWassup Mixtape", url: "https://www.dropbox.com/scl/fo/oe6eowxjcowhlmaxm6l69/ALP7Rq7KsCyTgZtOdU-Zzfc/TikTok%20With%20DjWassup%20Mixtape%28MP3_160K%29_1.mp3?rlkey=6h975s4o4i3hcort35qob0xwt&dl=0" },
+  { name: "TRAP TV 🔥", url: "https://www.dropbox.com/scl/fo/oe6eowxjcowhlmaxm6l69/AOwXQLlXa3XZYtxxN6wuRLs/TRAP%20TV%20%F0%9F%94%A5.mp3?rlkey=6h975s4o4i3hcort35qob0xwt&dl=0" },
+  { name: "Yellow Claw Trap Mix 2025", url: "https://www.dropbox.com/scl/fo/oe6eowxjcowhlmaxm6l69/ACXiOJTWUbhaSxaQVt67njo/Yellow%20Claw%20Trap%20Mix%202025%28MP3_160K%29.mp3?rlkey=6h975s4o4i3hcort35qob0xwt&dl=0" }
+    ] 
   }, 
   { logo: "🎹", name: "BASSCITY",     canciones: [
       { name: "Bass City - Mr French", url: "https://www.dropbox.com/scl/fi/9mh2vt3h6ggz0s3uhzrw3/Bass-City-Mr-French.mp3?rlkey=2tt42b89isahnip25z2ybm05c&st=rz7dhmwi&dl=0" },

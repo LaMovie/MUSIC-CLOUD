@@ -321,7 +321,23 @@ var GEN2 = [
   { name: "Stoltenhoff___Cesqeaux_-_You_Already_Know_-OUT_NOW-", url: "https://www.dropbox.com/scl/fo/oh5o3g9mb2lew6271lpt1/ALdNqWCIR57t0Z5yoTgVl_M/Stoltenhoff___Cesqeaux_-_You_Already_Know_-OUT_NOW-.mp3?rlkey=xxyfy81e0ef4vz9iyry91z2aq&dl=0" },
   { name: "This One's for You (feat. Zara Larsson)", url: "https://www.dropbox.com/scl/fo/oh5o3g9mb2lew6271lpt1/AFNMI0bk2lxiQsRs746_DBo/This%20One%27s%20for%20You%20%28feat.%20Zara%20Larsson%29.mp3?rlkey=xxyfy81e0ef4vz9iyry91z2aq&dl=0" },
   { name: "Yomil y el Dany - Estoy pa_ ti (video oficial) _ Perreo 2030", url: "https://www.dropbox.com/scl/fo/oh5o3g9mb2lew6271lpt1/AJijZ9WR2c5egZMJl-OgyqU/Yomil%20y%20el%20Dany%20-%20Estoy%20pa_%20ti%20%28video%20oficial%29%20_%20Perreo%202030%28MP3_160K%29_1.mp3?rlkey=xxyfy81e0ef4vz9iyry91z2aq&dl=0" },
-  { name: "Zomboy - Miles Away", url: "https://www.dropbox.com/scl/fo/oh5o3g9mb2lew6271lpt1/ANAETExjJqi6jpZsVNsymeo/Zomboy%20-%20Miles%20Away%28MP3_128K%29.mp3?rlkey=xxyfy81e0ef4vz9iyry91z2aq&dl=0" }
+  { name: "Zomboy - Miles Away", url: "https://www.dropbox.com/scl/fo/oh5o3g9mb2lew6271lpt1/ANAETExjJqi6jpZsVNsymeo/Zomboy%20-%20Miles%20Away%28MP3_128K%29.mp3?rlkey=xxyfy81e0ef4vz9iyry91z2aq&dl=0" }, 
+  { name: "Bass City - Mr French", url: "https://www.dropbox.com/scl/fi/9mh2vt3h6ggz0s3uhzrw3/Bass-City-Mr-French.mp3?rlkey=2tt42b89isahnip25z2ybm05c&st=rz7dhmwi&dl=0" },
+      { name: "Bass City - Mad Pressure", url: "https://www.dropbox.com/scl/fi/0kuhe64bba5sc6kfv9a1n/Bass-City-Mad-Pressure.mp3?rlkey=877zdn3uvc3upftst5vb9dmvb&st=gcz0hzol&dl=0" },
+      { name: "Bass City - I Love My Regge", url: "https://www.dropbox.com/scl/fi/ml4xrn55bvbfikagd0ub3/Bass-City-I-Love-My-Regge-MP3_160K.mp3?rlkey=kzenglxknrr53gotdljnmh7fl&st=25eu6mdi&dl=0" },
+      { name: "Bass City - Scent Of That Night", url: "https://www.dropbox.com/scl/fi/k65pie9t6vsg4rkymx4za/Bass-City-Scent-Of-That-Night.mp3?rlkey=v7o83veqdkxvubhion6ii7t2r&st=6xaxxzxf&dl=0" },
+      { name: "Bass City - Los Duros", url: "https://www.dropbox.com/scl/fi/kgz875mwyfp5j4d4inbk6/Bass-City-Los-Duros-MP3_160K-_1.mp3?rlkey=wdcb42ywa5tt03cndh97g5tu1&st=gsizeijq&dl=0" }, 
+      { name: "Bass City - Como Los D Antes", url: "https://www.dropbox.com/scl/fi/cg7wpxxvpa8uswc7i2w5q/Bass-City-Como-Los-D-Antes.mp3?rlkey=20fwnnush64wqt5oj32lvwbn8&st=n73g637o&dl=0" }, 
+      { name: "Bass City - She In The Crowd", url: "https://www.dropbox.com/scl/fi/pkz7byf5538w0vs7pqo4c/Bass-City-She-In-The-Crowd.mp3?rlkey=vgo2v77j3f1quqdtgjt0iyc5e&st=piqp812e&dl=0" }, 
+      { name: "Bass City - Concrete Jungle", url: "https://www.dropbox.com/scl/fi/64p83a9wizeelse7aencv/Bass-City-Concrete-Jungle.mp3?rlkey=3abas4bwz0b1lqm0vag493551&st=9lcmhru5&dl=0" },
+      { name: "Bass City - Underworld", url: "https://www.dropbox.com/scl/fi/of7kl2wav5xszycvcpu5w/Bass-City-Underworld-HD.mp3?rlkey=9mhu6srhocaq5bprt8obcof3t&st=9ov3t9v1&dl=0" },
+      { name: "Bass City - Como Los D Antes (Moombahton)", url: "https://www.dropbox.com/scl/fi/aefyafplxt6igk0coliiw/Bass-City-Como-Los-D-Antes-Moombahton.mp3?rlkey=65xth5nddunvepe1pbk5ay0bb&st=dre4idsd&dl=0" },
+      { name: "Bass City - Hay Un Son", url: "https://www.dropbox.com/scl/fi/4gpy3lg5erq6n6r1io9g3/Bass-City-Hay-Un-Son.mp3?rlkey=0m3ol9q69418ds2fvim90xzak&st=556ti9el&dl=0" },
+      { name: "Bass City - Blue Cam (Trap)", url: "https://www.dropbox.com/scl/fi/cr37ukya4a0p8ixl7wys2/Bass-City-Blue-Cam-Trap.mp3?rlkey=by6s2mva8p708jnxpn6x59ph5&st=tzdpi2q3&dl=0" },
+      { name: "Bass City - Dark Intentions 2015", url: "https://www.dropbox.com/scl/fi/1y90wo660h45cji6dofgg/Bass-City-Dark-Intentions-2015.mp4.mp3?rlkey=dnslobwc88xzmbv7phx59eaek&st=jtfnco8t&dl=0" },
+      { name: "Bass City - Tuned Jump", url: "https://www.dropbox.com/scl/fi/m35qqw7crrarli37dlrrj/Bass-City-Tuned-Jump.mp3?rlkey=kfc2w2jdacvy7uu10c4mxs6tf&st=dfcqqabe&dl=0" },
+      { name: "Bass City - Defenestration Club", url: "https://www.dropbox.com/scl/fi/7xkma6v32ac21cic8jo81/Bass-City-Defenestration-Club-MP3_160K-_1.mp3?rlkey=yo1dkq1xtlukorb73tk5ucizc&st=enr06my3&dl=0" },
+      { name: "Bass City - Thinking U", url: "https://www.dropbox.com/scl/fi/b7ep806k0myuicirbkrbj/Thinking-U-MP3_160K-_1.mp3?rlkey=qdk64x702dhljsqk9o37u33px&st=i4hr9wd5&dl=0" }
     ]
   }, 
   { logo: "🇧🇷", name: "OI BRASIL", canciones: [
@@ -575,55 +591,7 @@ var GEN2 = [
   { name: "LOS 4 ► CUANDO SE ACABA EL AMOR", url: "https://www.dropbox.com/scl/fo/9jq97lkzyqqge70nfgc6f/AC94pyOujaTHBom_1JDFegM/LOS%204%20%E2%96%BA%20CUANDO%20SE%20ACABA%20EL%20AMOR%20%28OFFICIAL%20VIDEO%29%28MP3_160K%29.mp3?rlkey=v54xem7w6xiflhawu4hei2g40&dl=0" },
   { name: "Luis Enrique - Yo no se mañana - Salsa Dancing Denise Fabel _ Daniel Rosas (2019) _1", url: "https://www.dropbox.com/scl/fo/9jq97lkzyqqge70nfgc6f/ANPyCe6go4ALSdrpi7f0ths/Luis%20Enrique%20-%20Yo%20no%20se%20ma%C3%B1ana%20-%20Salsa%20Dancing%20Denise%20Fabel%20_%20Daniel%20Rosas%20%282019%29%28MP3_160K%29_1.mp3?rlkey=v54xem7w6xiflhawu4hei2g40&dl=0" }  
    ]
-  }, 
-  { logo: "🫆", name: "TRAVEL", canciones: [
-  { name: "Capital Cities - I Sold My Bed_ But Not My Stereo", url: "https://www.dropbox.com/scl/fo/c3hrwkae794qs2scjipmp/AL_pYiFm-eN8mvT_7KiQnp4/Capital%20Cities%20-%20I%20Sold%20My%20Bed_%20But%20Not%20My%20Stereo%20%28Official%20Music%20Video%29%28MP3_160K%29.mp3?rlkey=p4ifuqffnxi2fpai5c112k2st&dl=0" },
-  { name: "Capital Cities - Safe And Sound", url: "https://www.dropbox.com/scl/fo/c3hrwkae794qs2scjipmp/AEp0TGeBsngtTMW3yztwDZY/Capital%20Cities%20-%20Safe%20And%20Sound%20%28Official%20Music%20Video%29%28MP3_160K%29.mp3?rlkey=p4ifuqffnxi2fpai5c112k2st&dl=0" },
-  { name: "Capital Cities - Kangaroo Court", url: "https://www.dropbox.com/scl/fo/c3hrwkae794qs2scjipmp/ABf0fNCkOh1ucehO3fCDw5E/Capital%20Cities%20-%20Kangaroo%20Court%20%28Official%20Music%20Video%29%28MP3_160K%29.mp3?rlkey=p4ifuqffnxi2fpai5c112k2st&dl=0" },
-  { name: "Didn_t Know", url: "https://www.dropbox.com/scl/fo/c3hrwkae794qs2scjipmp/AICHa-cps0HbK9sJBULQpoQ/Didn_t%20Know%28MP3_160K%29.mp3?rlkey=p4ifuqffnxi2fpai5c112k2st&dl=0" },
-  { name: "Lorde - Yellow Flicker Beat (Hunger Games)", url: "https://www.dropbox.com/scl/fo/c3hrwkae794qs2scjipmp/ADZpZF0tIpIsH_v8PPoBuxc/Lorde%20-%20Yellow%20Flicker%20Beat%20%28Hunger%20Games%29%28MP3_160K%29.mp3?rlkey=p4ifuqffnxi2fpai5c112k2st&dl=0" },
-  { name: "Lorde - Team", url: "https://www.dropbox.com/scl/fo/c3hrwkae794qs2scjipmp/AF4sngXlErT7lI4ROGkP3BM/Lorde%20-%20Team%28MP3_160K%29.mp3?rlkey=p4ifuqffnxi2fpai5c112k2st&dl=0" },
-  { name: "LORDE - Royals", url: "https://www.dropbox.com/scl/fo/c3hrwkae794qs2scjipmp/AP9LWJSLeGOxUA2JNH4ri6o/LORDE%20-%20Royals%28MP3_160K%29.mp3?rlkey=p4ifuqffnxi2fpai5c112k2st&dl=0" },
-  { name: "Lorde - Tennis Court", url: "https://www.dropbox.com/scl/fo/c3hrwkae794qs2scjipmp/ANrpdCJMhMLAA1FkFced1xg/Lorde%20-%20Tennis%20Court%28MP3_160K%29.mp3?rlkey=p4ifuqffnxi2fpai5c112k2st&dl=0" },
-  { name: "lorde _ buzzcut season (español)", url: "https://www.dropbox.com/scl/fo/c3hrwkae794qs2scjipmp/AD9sONCVZWahMySGhPp-_yE/lorde%20_%20buzzcut%20season%20%28espa%C3%B1ol%29%28MP3_160K%29.mp3?rlkey=p4ifuqffnxi2fpai5c112k2st&dl=0" },
-  { name: "Patience gets us nowhere fast - Capital Cities (unofficial music video) by Diogo Markveira", url: "https://www.dropbox.com/scl/fo/c3hrwkae794qs2scjipmp/AFMP3fIR8LthVoCyyyEkTEY/Patience%20gets%20us%20nowhere%20fast%20-%20Capital%20Cities%20%28unofficial%20music%20video%29%20by%20Diogo%20Markveira%28MP3_160K%29.mp3?rlkey=p4ifuqffnxi2fpai5c112k2st&dl=0" }
-    ]
-  }, 
-  { logo: "🔋", name: "ZERO", canciones: [
-  { name: "BADDIES ONLY_ PvssyCat _ Neon Hitch - Una Locura (Tech House) UFO Recordz", url: "https://www.dropbox.com/scl/fo/w7s7d8xajt1ee4a01tjaj/AEarh_Wg4brSYenUgQnc0d8/BADDIES%20ONLY_%20PvssyCat%20_%20Neon%20Hitch%20-%20Una%20Locura%20%28Tech%20House%29%20UFO%20Recordz%28MP3_160K%29.mp3?rlkey=ibztyqde3wsm5x908nrxcrv4e&dl=0" },
-  { name: "Beauty Brain - Traga (Barnaton) --", url: "https://www.dropbox.com/scl/fo/w7s7d8xajt1ee4a01tjaj/AJTaGRYRi-ddUYUlVHio2dE/Beauty%20Brain%20-%20Traga%20%28Barnaton%29%20--%28MP3_160K%29.mp3?rlkey=ibztyqde3wsm5x908nrxcrv4e&dl=0" },
-  { name: "Black Caviar - El Camino (Audio)", url: "https://www.dropbox.com/scl/fo/w7s7d8xajt1ee4a01tjaj/ADZx-_tw88rzeyup6sercxQ/Black%20Caviar%20-%20El%20Camino%20%28Audio%29%28MP3_160K%29.mp3?rlkey=ibztyqde3wsm5x908nrxcrv4e&dl=0" },
-  { name: "Buss It Up", url: "https://www.dropbox.com/scl/fo/w7s7d8xajt1ee4a01tjaj/AEVBvB9eA8nQduPCbxYslxA/Buss%20It%20Up%28MP3_160K%29.mp3?rlkey=ibztyqde3wsm5x908nrxcrv4e&dl=0" },
-  { name: "Chromeo Don't Sleep (feat French Montana Stefflon Don) -EDX's Miami Sunset Remix-", url: "https://www.dropbox.com/scl/fo/w7s7d8xajt1ee4a01tjaj/ACrOWqxi6vHHGnvkRzlpwPc/Chromeo%20%20%20Don%27t%20Sleep%20%28feat%20French%20Montana%20%20Stefflon%20Don%29%20-EDX%27s%20Miami%20Sunset%20Remix-.mp3?rlkey=ibztyqde3wsm5x908nrxcrv4e&dl=0" },
-  { name: "Crusy _ Castion - Take Me Higher", url: "https://www.dropbox.com/scl/fo/w7s7d8xajt1ee4a01tjaj/AMOyhg7rl3V_Ln0D0KCWNOA/Crusy%20_%20Castion%20-%20Take%20Me%20Higher%28MP3_160K%29.mp3?rlkey=ibztyqde3wsm5x908nrxcrv4e&dl=0" },
-  { name: "Dark Heart - Over _ Over (ft. Njomza)", url: "https://www.dropbox.com/scl/fo/w7s7d8xajt1ee4a01tjaj/APh93pvX-VyVzgFzF10aQ0g/Dark%20Heart%20-%20Over%20_%20Over%20%28ft.%20Njomza%29%28MP3_160K%29.mp3?rlkey=ibztyqde3wsm5x908nrxcrv4e&dl=0" },
-  { name: "Diplo_ French Montana _ Lil Pump ft. Zhavia Ward - Welcome To The Party", url: "https://www.dropbox.com/scl/fo/w7s7d8xajt1ee4a01tjaj/AIhtF8iLBAQpxaUU8B3mPRE/Diplo_%20French%20Montana%20_%20Lil%20Pump%20ft.%20Zhavia%20Ward%20-%20Welcome%20To%20The%20Party%20%28Official%20Music%20Video%29%28MP3_160K%29.mp3?rlkey=ibztyqde3wsm5x908nrxcrv4e&dl=0" },
-  { name: "Dirty Palm - Priorities (feat. EMMA LX) [Extended Mix] _ FUTURE HOUSE", url: "https://www.dropbox.com/scl/fo/w7s7d8xajt1ee4a01tjaj/AJDhy2G_um3aKOQu0gLxqus/Dirty%20Palm%20-%20Priorities%20%28feat.%20EMMA%20LX%29%20%5BExtended%20Mix%5D%20_%20FUTURE%20HOUSE%28MP3_160K%29.mp3?rlkey=ibztyqde3wsm5x908nrxcrv4e&dl=0" },
-  { name: "DJ Snake - Let Me Love You ft. Justin Bieber", url: "https://www.dropbox.com/scl/fo/w7s7d8xajt1ee4a01tjaj/AOQaJ0Lq2nx12NbGwGRcFHY/DJ%20Snake%20-%20Let%20Me%20Love%20You%20ft.%20Justin%20Bieber%28MP3_160K%29.mp3?rlkey=ibztyqde3wsm5x908nrxcrv4e&dl=0" },
-  { name: "Eptic - Forcefield", url: "https://www.dropbox.com/scl/fo/w7s7d8xajt1ee4a01tjaj/ANljOS2x9P-NjbyWgdmvDWw/Eptic%20-%20Forcefield%28MP3_160K%29.mp3?rlkey=ibztyqde3wsm5x908nrxcrv4e&dl=0" },
-  { name: "Fumaratto - Me Provocas Ft. Valka", url: "https://www.dropbox.com/scl/fo/w7s7d8xajt1ee4a01tjaj/AC-lGTHb4oc1rqgDIddAgCI/Fumaratto%20-%20Me%20Provocas%20Ft.%20Valka%20%F0%9F%8D%AD%20%28Official%20Music%20Video%29%28MP3_160K%29.mp3?rlkey=ibztyqde3wsm5x908nrxcrv4e&dl=0" },
-  { name: "GRAVEDGR - KAMIKAZE", url: "https://www.dropbox.com/scl/fo/w7s7d8xajt1ee4a01tjaj/AM2YQnwalnDJ7tDpkCz6iMo/GRAVEDGR%20-%20KAMIKAZE%28MP3_160K%29.mp3?rlkey=ibztyqde3wsm5x908nrxcrv4e&dl=0" },
-  { name: "Habstrakt _ Asdek - Es Isso", url: "https://www.dropbox.com/scl/fo/w7s7d8xajt1ee4a01tjaj/AGTkIxJxRXagcTzBxMX1t0g/Habstrakt%20_%20Asdek%20-%20Es%20Isso%28MP3_160K%29.mp3?rlkey=ibztyqde3wsm5x908nrxcrv4e&dl=0" },
-  { name: "Herobust - Move Mint (VIP)", url: "https://www.dropbox.com/scl/fo/w7s7d8xajt1ee4a01tjaj/AC6Z2rHWCECj9gczTuaH67U/Herobust%20-%20Move%20Mint%20%28VIP%29%28MP3_160K%29.mp3?rlkey=ibztyqde3wsm5x908nrxcrv4e&dl=0" },
-  { name: "HVME - GOOSEBUMPS", url: "https://www.dropbox.com/scl/fo/w7s7d8xajt1ee4a01tjaj/AMzBIzpBY_vLKLBQqutC8FE/HVME%20-%20GOOSEBUMPS%20%28Official%20Video%29%28MP3_160K%29.mp3?rlkey=ibztyqde3wsm5x908nrxcrv4e&dl=0" },
-  { name: "IAmChino x Pitbull x Deorro - Discoteca (Deorro Remix)", url: "https://www.dropbox.com/scl/fo/w7s7d8xajt1ee4a01tjaj/ACks9Z03BctaQXuZ7q9aXZU/IAmChino%20x%20Pitbull%20x%20Deorro%20-%20Discoteca%20%28Deorro%20Remix%29%28MP3_160K%29.mp3?rlkey=ibztyqde3wsm5x908nrxcrv4e&dl=0" },
-  { name: "Imanbek _ BYOR - Belly Dancer", url: "https://www.dropbox.com/scl/fo/w7s7d8xajt1ee4a01tjaj/AH7sPh8gnJSKfbHl2LGSyiI/Imanbek%20_%20BYOR%20-%20Belly%20Dancer%20%28Official%20Music%20Video%29%28MP3_160K%29.mp3?rlkey=ibztyqde3wsm5x908nrxcrv4e&dl=0" },
-  { name: "JOYRYDE - GOT REAL (ft. Mika Means) (Original Mix)", url: "https://www.dropbox.com/scl/fo/w7s7d8xajt1ee4a01tjaj/AAlq05EVgOc27IenEPkuSJg/JOYRYDE%20-%20GOT%20REAL%20%28ft.%20Mika%20Means%29%20%28Original%20Mix%29%28MP3_160K%29.mp3?rlkey=ibztyqde3wsm5x908nrxcrv4e&dl=0" },
-  { name: "MadBliss - BIG BOY TIME", url: "https://www.dropbox.com/scl/fo/w7s7d8xajt1ee4a01tjaj/APpvmkuQhBv8rAc36l4WqRk/MadBliss%20-%20BIG%20BOY%20TIME%28MP3_160K%29.mp3?rlkey=ibztyqde3wsm5x908nrxcrv4e&dl=0" },
-  { name: "Notion - Hooked (Official Lyric Video)", url: "https://www.dropbox.com/scl/fo/w7s7d8xajt1ee4a01tjaj/AI9IcaKfGRddX9jSX0f817A/Notion%20-%20Hooked%20%28Official%20Lyric%20Video%29%28MP3_160K%29.mp3?rlkey=ibztyqde3wsm5x908nrxcrv4e&dl=0" },
-  { name: "Que Paso", url: "https://www.dropbox.com/scl/fo/w7s7d8xajt1ee4a01tjaj/ALzWsFgl-870bQEPreGjZrA/Que%20Paso%28MP3_160K%29.mp3?rlkey=ibztyqde3wsm5x908nrxcrv4e&dl=0" },
-  { name: "Skrillex _ Habstrakt - Chicken Soup [Official Audio]", url: "https://www.dropbox.com/scl/fo/w7s7d8xajt1ee4a01tjaj/AEU_VSji11Ld3-dMMGoDuBI/Skrillex%20_%20Habstrakt%20-%20Chicken%20Soup%20%20%5BOfficial%20Audio%5D%28MP3_160K%29.mp3?rlkey=ibztyqde3wsm5x908nrxcrv4e&dl=0" },
-  { name: "Snavs - Less (Snavs VIP)", url: "https://www.dropbox.com/scl/fo/w7s7d8xajt1ee4a01tjaj/AHTyQofBTn6_tlUREvJ0xdQ/Snavs%20-%20Less%20%28Snavs%20VIP%29%28MP3_160K%29.mp3?rlkey=ibztyqde3wsm5x908nrxcrv4e&dl=0" },
-  { name: "Tiësto - The Business", url: "https://www.dropbox.com/scl/fo/w7s7d8xajt1ee4a01tjaj/AJSz0-dfP5380cARant49vY/Ti%C3%ABsto%20-%20The%20Business%20%28Official%20Music%20Video%29%28MP3_160K%29.mp3?rlkey=ibztyqde3wsm5x908nrxcrv4e&dl=0" },
-  { name: "TroyBoi - Favorite ft. Healthy Chill", url: "https://www.dropbox.com/scl/fo/w7s7d8xajt1ee4a01tjaj/AC0reYEkNeRQJzvAcqszPf4/TroyBoi%20-%20Favorite%20ft.%20Healthy%20Chill%20%28Official%20Music%20Video%29%28MP3_160K%29.mp3?rlkey=ibztyqde3wsm5x908nrxcrv4e&dl=0" },
-  { name: "TroyBoi - Bellz", url: "https://www.dropbox.com/scl/fo/w7s7d8xajt1ee4a01tjaj/AMfVGGXJB3IegYGWyF1lKtg/TroyBoi%20-%20Bellz%20%28Official%20Music%20Video%29%28MP3_160K%29.mp3?rlkey=ibztyqde3wsm5x908nrxcrv4e&dl=0" },
-  { name: "TroyBoi - Dale", url: "https://www.dropbox.com/scl/fo/w7s7d8xajt1ee4a01tjaj/AALAg7u4WEqpz24RenXMIRg/TroyBoi%20-%20Dale%28MP3_160K%29.mp3?rlkey=ibztyqde3wsm5x908nrxcrv4e&dl=0" },
-  { name: "TroyBoi - Do You_ [Official Video]", url: "https://www.dropbox.com/scl/fo/w7s7d8xajt1ee4a01tjaj/AN3PKG2TIAPn3hhqqb6ma04/TroyBoi%20-%20%20Do%20You_%20%5BOfficial%20Video%5D%28MP3_160K%29.mp3?rlkey=ibztyqde3wsm5x908nrxcrv4e&dl=0" },
-  { name: "TroyBoi - Carti", url: "https://www.dropbox.com/scl/fo/w7s7d8xajt1ee4a01tjaj/AEMGtTkHjlLVd-YAYfx2ofM/TroyBoi%20-%20Carti%20%28Official%20Music%20Video%29%28MP3_160K%29.mp3?rlkey=ibztyqde3wsm5x908nrxcrv4e&dl=0" },
-  { name: "TroyBoi - BUSS IT", url: "https://www.dropbox.com/scl/fo/w7s7d8xajt1ee4a01tjaj/ACUIq86sU3Be3JbadYAgQAM/TroyBoi%20-%20BUSS%20IT%28MP3_160K%29.mp3?rlkey=ibztyqde3wsm5x908nrxcrv4e&dl=0" },
-  { name: "You Take Me (Radio Edit)", url: "https://www.dropbox.com/scl/fo/w7s7d8xajt1ee4a01tjaj/AISqpXm5iHLg-YXwHzZnifg/You%20Take%20Me%20%28Radio%20Edit%29%28MP3_160K%29.mp3?rlkey=ibztyqde3wsm5x908nrxcrv4e&dl=0" }
-    ]
-  }, 
+  },   
   { logo: "🎧", name: "MIX", canciones: [
   { name: "MONSTER MIX - DJ BL3ND -HD-", url: "https://www.dropbox.com/scl/fo/oe6eowxjcowhlmaxm6l69/AOZ7YXdOML9d4MopgMRWkaA/%28MONSTER%20MIX%29%20-%20DJ%20BL3ND%20-HD-%28MP3_128K%29.mp3?rlkey=6h975s4o4i3hcort35qob0xwt&dl=0" },
   { name: "9 Hits By Bass City DJ", url: "https://www.dropbox.com/scl/fo/oe6eowxjcowhlmaxm6l69/APB5xg7jDriX3dJ5XHE8orY/9%20Hits%20By%20Bass%20City%20DJ.mp3?rlkey=6h975s4o4i3hcort35qob0xwt&dl=0" },
@@ -647,25 +615,6 @@ var GEN2 = [
   { name: "Yellow Claw Trap Mix 2025", url: "https://www.dropbox.com/scl/fo/oe6eowxjcowhlmaxm6l69/ACXiOJTWUbhaSxaQVt67njo/Yellow%20Claw%20Trap%20Mix%202025%28MP3_160K%29.mp3?rlkey=6h975s4o4i3hcort35qob0xwt&dl=0" }
     ] 
   }, 
-  { logo: "🎹", name: "BASSCITY",     canciones: [
-      { name: "Bass City - Mr French", url: "https://www.dropbox.com/scl/fi/9mh2vt3h6ggz0s3uhzrw3/Bass-City-Mr-French.mp3?rlkey=2tt42b89isahnip25z2ybm05c&st=rz7dhmwi&dl=0" },
-      { name: "Bass City - Mad Pressure", url: "https://www.dropbox.com/scl/fi/0kuhe64bba5sc6kfv9a1n/Bass-City-Mad-Pressure.mp3?rlkey=877zdn3uvc3upftst5vb9dmvb&st=gcz0hzol&dl=0" },
-      { name: "Bass City - I Love My Regge", url: "https://www.dropbox.com/scl/fi/ml4xrn55bvbfikagd0ub3/Bass-City-I-Love-My-Regge-MP3_160K.mp3?rlkey=kzenglxknrr53gotdljnmh7fl&st=25eu6mdi&dl=0" },
-      { name: "Bass City - Scent Of That Night", url: "https://www.dropbox.com/scl/fi/k65pie9t6vsg4rkymx4za/Bass-City-Scent-Of-That-Night.mp3?rlkey=v7o83veqdkxvubhion6ii7t2r&st=6xaxxzxf&dl=0" },
-      { name: "Bass City - Los Duros", url: "https://www.dropbox.com/scl/fi/kgz875mwyfp5j4d4inbk6/Bass-City-Los-Duros-MP3_160K-_1.mp3?rlkey=wdcb42ywa5tt03cndh97g5tu1&st=gsizeijq&dl=0" }, 
-      { name: "Bass City - Como Los D Antes", url: "https://www.dropbox.com/scl/fi/cg7wpxxvpa8uswc7i2w5q/Bass-City-Como-Los-D-Antes.mp3?rlkey=20fwnnush64wqt5oj32lvwbn8&st=n73g637o&dl=0" }, 
-      { name: "Bass City - She In The Crowd", url: "https://www.dropbox.com/scl/fi/pkz7byf5538w0vs7pqo4c/Bass-City-She-In-The-Crowd.mp3?rlkey=vgo2v77j3f1quqdtgjt0iyc5e&st=piqp812e&dl=0" }, 
-      { name: "Bass City - Concrete Jungle", url: "https://www.dropbox.com/scl/fi/64p83a9wizeelse7aencv/Bass-City-Concrete-Jungle.mp3?rlkey=3abas4bwz0b1lqm0vag493551&st=9lcmhru5&dl=0" },
-      { name: "Bass City - Underworld", url: "https://www.dropbox.com/scl/fi/of7kl2wav5xszycvcpu5w/Bass-City-Underworld-HD.mp3?rlkey=9mhu6srhocaq5bprt8obcof3t&st=9ov3t9v1&dl=0" },
-      { name: "Bass City - Como Los D Antes (Moombahton)", url: "https://www.dropbox.com/scl/fi/aefyafplxt6igk0coliiw/Bass-City-Como-Los-D-Antes-Moombahton.mp3?rlkey=65xth5nddunvepe1pbk5ay0bb&st=dre4idsd&dl=0" },
-      { name: "Bass City - Hay Un Son", url: "https://www.dropbox.com/scl/fi/4gpy3lg5erq6n6r1io9g3/Bass-City-Hay-Un-Son.mp3?rlkey=0m3ol9q69418ds2fvim90xzak&st=556ti9el&dl=0" },
-      { name: "Bass City - Blue Cam (Trap)", url: "https://www.dropbox.com/scl/fi/cr37ukya4a0p8ixl7wys2/Bass-City-Blue-Cam-Trap.mp3?rlkey=by6s2mva8p708jnxpn6x59ph5&st=tzdpi2q3&dl=0" },
-      { name: "Bass City - Dark Intentions 2015", url: "https://www.dropbox.com/scl/fi/1y90wo660h45cji6dofgg/Bass-City-Dark-Intentions-2015.mp4.mp3?rlkey=dnslobwc88xzmbv7phx59eaek&st=jtfnco8t&dl=0" },
-      { name: "Bass City - Tuned Jump", url: "https://www.dropbox.com/scl/fi/m35qqw7crrarli37dlrrj/Bass-City-Tuned-Jump.mp3?rlkey=kfc2w2jdacvy7uu10c4mxs6tf&st=dfcqqabe&dl=0" },
-      { name: "Bass City - Defenestration Club", url: "https://www.dropbox.com/scl/fi/7xkma6v32ac21cic8jo81/Bass-City-Defenestration-Club-MP3_160K-_1.mp3?rlkey=yo1dkq1xtlukorb73tk5ucizc&st=enr06my3&dl=0" },
-      { name: "Bass City - Thinking U", url: "https://www.dropbox.com/scl/fi/b7ep806k0myuicirbkrbj/Thinking-U-MP3_160K-_1.mp3?rlkey=qdk64x702dhljsqk9o37u33px&st=i4hr9wd5&dl=0" }
-    ]
-  }
 ];
 
 

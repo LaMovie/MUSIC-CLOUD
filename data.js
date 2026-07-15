@@ -272,8 +272,7 @@ var GEN = [
       { name: "Pedro Capó_ Farruko - Calma (Remix)", url: "https://www.dropbox.com/scl/fi/ksgp632www9tar9vtsk58/Pedro-Cap-_-Farruko-Calma-Remix-Official-Video-MP3_160K.mp3?rlkey=ht3b16ewmie8dxfig7n1kave8&st=tn8o8b0p&dl=0" },
       { name: "Play-N-Skillz_ Daddy Yankee_ Zion _ Lennox - Bésame", url: "https://www.dropbox.com/scl/fi/rp9aus5vgh3iontcjwc2k/Play-N-Skillz_-Daddy-Yankee_-Zion-_-Lennox-B-same-Video-Oficial-MP3_160K.mp3?rlkey=7zv08b95737475b0hh7flhp5i&st=onb0xlme&dl=0" },
       { name: "QUEVEDO __ BZRP Music Sessions _52_66", url: "https://www.dropbox.com/scl/fi/7whfbj5jimk1p0rkee604/QUEVEDO-__-BZRP-Music-Sessions-_52_66-MP3_160K.mp3?rlkey=w5zchkmto36714733h4d9cbls&st=5p3ev4al&dl=0" },
-      { name: "UWAIE - Kapo - Jet 41", url: "https://www.dropbox.com/scl/fi/wmqvab0e8cljj6446e07g/UWAIE-Kapo-Video-Oficial-Jet-41-MP3_160K.mp3?rlkey=7qg0enmflfdj2lkot4r7j8m5b&st=dv5rru0x&dl=0" }, 
-      { name: "📻 SABANA STEREO 📻", url: "https://cast5.my-control-panel.com/proxy/sabanastereo/stream" }
+      { name: "UWAIE - Kapo - Jet 41", url: "https://www.dropbox.com/scl/fi/wmqvab0e8cljj6446e07g/UWAIE-Kapo-Video-Oficial-Jet-41-MP3_160K.mp3?rlkey=7qg0enmflfdj2lkot4r7j8m5b&st=dv5rru0x&dl=0" } 
     ]
   }, 
   { logo: "🇨🇺", name: "CUBATON", 

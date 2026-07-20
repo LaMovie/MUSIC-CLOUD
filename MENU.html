@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Catedral Del Sonido - Menú</title>
+  <!-- Fuentes Retro y Modernas -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Lexend:wght@400;700&display=swap" rel="stylesheet">
+<style>
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+}
+body {
+      background: radial-gradient(circle at top, #1c0d2b 0%, #0a0410 100%);
+      font-family: 'Lexend', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start; /* Subimos el contenido verticalmente */
+      align-items: center;
+      color: #ffffff;
+      overflow-x: hidden;
+      transition: opacity 0.4s ease;
+      padding: 12vh 20px 20px 20px; /* Margen superior amplio para posicionarlo arriba */
+    }
+
+    /* Animación de salida */
+    body.page-fade-out {
+      opacity: 0;
+    }
+
+    /* Encabezado Estilo Retro / Neón */
+    header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+header h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      letter-spacing: 6px;
+      color: #bf8bff;
+      text-shadow: 0 0 10px rgba(191, 139, 255, 0.6);
+      margin-bottom: 10px;
+}
+header h2 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 2.8rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      background: linear-gradient(180deg, #ffffff 40%, #dca5ff 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      filter: drop-shadow(0 2px 8px rgba(140, 82, 255, 0.5));
+      letter-spacing: 1px;
+    }
+/* Contenedor en fila */
+.menu-container {
+      display: flex;
+      flex-direction: row;
+      gap: 24px;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      max-width: 750px;
+    }
+/* Cuadros basados en la estética morada de la imagen */
+.menu-card {
+      flex: 1;
+      aspect-ratio: 1 / 1;
+      min-width: 130px;
+      max-width: 190px;
+      background: #211136; /* Morado base de la tarjeta */
+      border: 2px solid #44226e; /* Borde sutil inicial */
+      border-radius: 28px; /* Bordes redondeados idénticos */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      text-align: center;
+      padding: 20px;
+      transition: transform 0.25s cubic-bezier(0.2, 1, 0.3, 1), border-color 0.25s ease, box-shadow 0.25s ease;
+      cursor: pointer;
+      user-select: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+/* Iconos */
+.card-icon {
+      font-size: 3rem;
+      margin-bottom: 12px;
+      transition: transform 0.3s ease;
+      filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+    }
+
+    /* Efecto Hover Retro-Glow */
+    @media (hover: hover) {
+      .menu-card:hover {
+        transform: translateY(-6px) scale(1.04);
+        border-color: #a855f7; /* Brillo morado neón */
+        box-shadow: 0 12px 30px rgba(168, 85, 247, 0.25), inset 0 0 15px rgba(168, 85, 247, 0.1);
+      }
+      .menu-card:hover .card-icon {
+        transform: scale(1.15) rotate(3deg);
+      }
+    }
+
+    /* Animación de Click Mecánico */
+    .menu-card.clicked {
+      animation: retro-push 0.35s forwards cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    @keyframes retro-push {
+      0% {
+        transform: scale(1);
+        filter: brightness(1);
+      }
+      35% {
+        transform: scale(0.88);
+        border-color: #d8b4fe;
+        filter: brightness(0.6);
+        box-shadow: 0 0 0px rgba(0,0,0,0);
+      }
+      100% {
+        transform: scale(0.92);
+        filter: brightness(0.8);
+      }
+    }
+
+    /* Responsive para móviles */
+    @media (max-width: 520px) {
+      body {
+        padding-top: 8vh;
+      }
+      header h2 {
+        font-size: 1.9rem;
+      }
+      .menu-container {
+        gap: 14px;
+        padding: 0 5px;
+      }
+      .menu-card {
+        font-size: 0.75rem;
+        border-radius: 20px;
+        padding: 12px;
+        border-width: 1.5px;
+      }
+      .card-icon {
+        font-size: 2.2rem;
+        margin-bottom: 6px;
+      }
+    }
+#BASS {
+  background: #1f133d; /* Violeta profundo eléctrico */
+  border-color: #382270;
+}
+
+#CLOUD {
+  background: #0f1e33; /* Azul noche cibernético */
+  border-color: #1a3254;
+}
+
+#VID {
+  background: #30102b; /* Magenta oscuro/neón quemado */
+  border-color: #541d4b;
+}
+</style>
+</head>
+<body>
+
+  <header>
+    <h1>MENÚ</h1>
+    <h2>La Catedral Del Sonido</h2>
+  </header>
+
+  <main class="menu-container">
+    <!-- Enlace 1: BASS-NATION -->
+    <a id="BASS" href="https://lamovie.github.io/MENU/BASS-NATION.html" class="menu-card">
+      <span class="card-icon">🔊</span>
+      <span>BASS-NATION</span>
+    </a>
+
+    <!-- Enlace 2: MUSIC CLOUD -->
+    <a id="CLOUD" href="https://lamovie.github.io/MUSIC-CLOUD" class="menu-card">
+      <span class="card-icon">☁️</span>
+      <span>MUSIC CLOUD</span>
+    </a>
+
+    <!-- Enlace 3: VIDEOS -->
+    <a id="VID" href="https://lamovie.github.io/YOUTUBE-VIDEOS/" class="menu-card">
+      <span class="card-icon">🎬</span>
+      <span>VIDEOS</span>
+    </a>
+  </main>
+
+<script>
+document.querySelectorAll('.menu-card').forEach(card => {
+      card.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetUrl = this.getAttribute('href');
+        
+   // Ejecuta la animación de pulsación
+  this.classList.add('clicked');
+        
+     // Transición de salida de la pantalla completa
+        setTimeout(() => {
+          document.body.classList.add('page-fade-out');
+        }, 120);
+
+     // Redirección final
+        setTimeout(() => {
+  window.location.href = targetUrl;
+        }, 350);
+      });
+    });
+</script>
+</body>
+</html>

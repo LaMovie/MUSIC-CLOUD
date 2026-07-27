@@ -127,7 +127,7 @@ p.title {
    position: fixed;
    bottom: 0;
    width: 100%;
-   background: #000;/* #0d0d0f */   
+   background: #000; /* #0d0d0f */   
    background-position: center;
    border-top: 1px solid #222;
    padding: 15px 0 10px 0;
@@ -228,12 +228,3 @@ audio { display: none; }
 #VistaGeneros, .animated-content, #VistaBusqueda {
    animation: aparecer 0.35s ease-out forwards;
 }
-
-
-
-
-
-
-
-
-

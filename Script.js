@@ -162,7 +162,7 @@ function reproducirCancion(cancion, index) {
                 artist: 'MUSIC CLOUD', 
                 album: 'Playlist',
                 artwork: [
-                    { src: 'icono.png', sizes: '512x512', type: 'image/png' }
+                    { src: 'https://cdn-icons-png.flaticon.com/512/3269/3269022.png', sizes: '512x512', type: 'image/png' }
                 ]
             });
             
@@ -314,17 +314,3 @@ async function togglePiP() {
 }
 
 inicializarSistema();
-
-
-
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('sw.js')
-      .then(() => console.log("Service Worker registrado correctamente"))
-      .catch((err) => console.log("Falló el registro del Service Worker", err));
-  });
-}
-
-
-
-

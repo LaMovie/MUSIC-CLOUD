@@ -314,3 +314,17 @@ async function togglePiP() {
 }
 
 inicializarSistema();
+
+
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('sw.js')
+      .then(() => console.log("Service Worker registrado correctamente"))
+      .catch((err) => console.log("Falló el registro del Service Worker", err));
+  });
+}
+
+
+
+

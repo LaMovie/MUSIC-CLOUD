@@ -162,7 +162,7 @@ function reproducirCancion(cancion, index) {
                 artist: 'MUSIC CLOUD', 
                 album: 'Playlist',
                 artwork: [
-                    { src: 'https://cdn-icons-png.flaticon.com/512/3269/3269022.png', sizes: '512x512', type: 'image/png' }
+                    { src: 'icono.png', sizes: '512x512', type: 'image/png' }
                 ]
             });
             

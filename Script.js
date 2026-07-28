@@ -4,6 +4,10 @@ let playlistActual = [];
 let indiceActual = 0;
 
 const Reproductor = document.getElementById("Player");
+const video = document.getElementById("videoElement");
+const canvas = document.getElementById("visualCanvas");
+const ctx = canvas.getContext('2d');
+
 const InfoCancion = document.getElementById("NowPlayingInfo");
 const I = document.getElementById("I");
 const ListaGeneros = document.getElementById("Lista");
@@ -21,7 +25,52 @@ const TimeTotal = document.getElementById("TimeTotal");
 const PlayerBar = document.getElementById("PlayerBar");
 const No = document.getElementById("No");
 
-// Generar IDs internos automáticamente
+// --- CONFIGURACIÓN DE LA IMAGEN PARA EL PiP ---
+const albumArt = new Image();
+albumArt.crossOrigin = "anonymous";
+// Puedes cambiar este enlace por el de cualquier imagen, póster o logo que prefieras
+albumArt.src = 'icono.png';
+
+// Configurar flujo del canvas hacia el video oculto para el PiP (actualiza a 30 cuadros por segundo)
+const stream = canvas.captureStream(30);
+video.srcObject = stream;
+
+function dibujarCanvas() {
+    // Fondo de la pantalla flotante
+    ctx.fillStyle = '#0f0f13';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    
+    // Dibujar la imagen/carátula a la izquierda del PiP
+    try {
+        ctx.drawImage(albumArt, 15, 25, 100, 100);
+    } catch(e) {}
+
+    // Texto superior (Fijo)
+    ctx.fillStyle = '#888';
+    ctx.font = 'bold 10px system-ui';
+    ctx.textAlign = 'left';
+    ctx.fillText('MUSIC CLOUD', 130, 35);
+
+    // Título de la canción actual (Se actualiza dinámicamente)
+    ctx.fillStyle = '#cc4dd6';
+    ctx.font = 'bold 13px system-ui';
+    let titulo = InfoCancion.innerText || "Selecciona una pista";
+    
+    // Si el título es muy largo, lo recortamos para que no se salga de la ventana flotante
+    if (titulo.length > 24) {
+        titulo = titulo.substring(0, 21) + "...";
+    }
+    ctx.fillText(titulo, 130, 60);
+
+    // Estado (Reproduciendo o Pausado)
+    ctx.fillStyle = Reproductor.paused ? '#ff5555' : '#00ffcc';
+    ctx.font = '11px system-ui';
+    ctx.fillText(Reproductor.paused ? '⏸️ En pausa' : '▶️ Reproduciendo', 130, 95);
+
+    requestAnimationFrame(dibujarCanvas);
+}
+dibujarCanvas();
+
 function inicializarSistema() {
     let idContador = 1;
     GEN.forEach(genero => {
@@ -46,12 +95,6 @@ function mostrarGenerosBase() {
         `;
         ListaGeneros.appendChild(li);  
     });
-}
-
-function removerCache() {
-    if(confirm("¿Quieres reiniciar la aplicación?")) {
-        location.reload(); 
-    }
 }
 
 function mostrarGeneros() {
@@ -95,7 +138,6 @@ function marcarCancionActiva(idCancion) {
     }
 }
 
-// Reproducción y Controles de Notificación (Media Session)
 function reproducirCancion(cancion, index) {
     LoadingBox.style.display = "block";
     marcarCancionActiva(cancion.id);
@@ -105,14 +147,15 @@ function reproducirCancion(cancion, index) {
         Reproductor.src = SONG;
         PlayerBar.style.background = 'url(4.gif)';  
         
-        Reproductor.play().catch(error => {
+        Reproductor.play().then(() => {
+            video.play();
+        }).catch(error => {
             console.log("Autoplay bloqueado:", error);
             InfoCancion.innerText = "Toca '▶️' para reproducir";
             BtnPlay.innerText = "▶️";
             PlayerBar.style.background = '';
         });
 
-        // Configuración de la notificación en Android/iOS
         if ('mediaSession' in navigator) {
             navigator.mediaSession.metadata = new MediaMetadata({
                 title: cancion.name,
@@ -123,11 +166,9 @@ function reproducirCancion(cancion, index) {
                 ]
             });
             
-            // Botones de Play y Pausa
             navigator.mediaSession.setActionHandler('play', () => togglePlay());
             navigator.mediaSession.setActionHandler('pause', () => togglePlay());
             
-            // Botón de Canción Anterior
             navigator.mediaSession.setActionHandler('previoustrack', () => {
                 if (indiceActual > 0) {
                     let anteriorIndex = indiceActual - 1;
@@ -135,8 +176,6 @@ function reproducirCancion(cancion, index) {
                 }
             });
 
-   
-    // Botón de Siguiente Canción
             navigator.mediaSession.setActionHandler('nexttrack', () => {
                 if (playlistActual && indiceActual < playlistActual.length - 1) {
                     let siguienteIndex = indiceActual + 1;
@@ -163,7 +202,6 @@ Reproductor.addEventListener('ended', () => {
     }
 });
 
-// Buscador
 I.oninput = (e) => {
     var In = e.target.value.toLowerCase().trim().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     if (In === "") { 
@@ -215,8 +253,10 @@ I.oninput = (e) => {
 function togglePlay() {
     if (Reproductor.paused) {
         Reproductor.play().catch(() => {});
+        video.play().catch(() => {});
     } else {
         Reproductor.pause();
+        video.pause();
     }
 }
   
@@ -249,6 +289,28 @@ Reproductor.ontimeupdate = () => {
 
 function seekAudio() {
     Reproductor.currentTime = ProgressBar.value;
+}
+
+async function togglePiP() {
+    if (!document.pictureInPictureEnabled) {
+        alert("Tu dispositivo no soporta ventanas flotantes.");
+        return;
+    }
+    try {
+        if (document.pictureInPictureElement) {
+            await document.exitPictureInPicture();
+   BtnPiP.style.opacity = '1';
+        } else {
+   if (video.readyState < 2) {
+          await video.play();
+            }
+            await video.requestPictureInPicture();
+    BtnPiP.style.opacity = '.5';
+        }
+    } catch (error) {
+        console.log("Error PiP:", error);
+        alert("No se pudo activar la ventana flotante.");
+    }
 }
 
 inicializarSistema();

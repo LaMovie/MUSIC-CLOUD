@@ -43,6 +43,7 @@
     <div id="NowPlayingInfo">Ninguna canción seleccionada</div>
     
     <div class="custom-controls">
+        <button id="BtnPiP" onclick="togglePiP()">📺</button>
         <span id="TimeCurrent" class="time-display">0:00</span>
         <input type="range" id="ProgressBar" value="0" step="1" min="0" onchange="seekAudio()">
         <span id="TimeTotal" class="time-display">0:00</span>
@@ -50,7 +51,11 @@
     </div>
     
     <audio id="Player"></audio>
+    <!-- Elementos ocultos para alimentar el modo PiP con audio -->
+    <canvas id="visualCanvas" width="300" height="150" style="opacity: 0; position: absolute; width: 1px; height: 1px; pointer-events: none;"></canvas>
+    <video id="videoElement" autoplay playsinline muted style="opacity: 0; position: absolute; width: 1px; height: 1px; pointer-events: none;"></video>
 </div>
+
 
 <script src="data.js"></script>
 <script src="data2.js"></script>

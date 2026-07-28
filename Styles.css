@@ -228,3 +228,19 @@ audio { display: none; }
 #VistaGeneros, .animated-content, #VistaBusqueda {
    animation: aparecer 0.35s ease-out forwards;
 }
+#BtnPiP {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.2s;
+    filter: hue-rotate(60deg) brightness(1.1) saturate(200%) contrast(200%) drop-shadow(5px 2px 10px #aaa);
+}
+#BtnPiP:active {
+    transform: scale(0.8);
+}
+
+
+
